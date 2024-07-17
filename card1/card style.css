@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px black;
+
+}
+img{
+    width: 48%;
+}
+.card:hover{
+    box-shadow: 0 20px 25px black;
+}
+#man{
+    transform: translate(0,-17px);
+}
