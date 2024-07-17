@@ -1,0 +1,47 @@
+.rotate{
+    width: 150px;
+    height: 100px;
+    background-color: green;
+    margin: 50px auto;
+    transform: rotate(45deg);
+}
+.scale{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(12, 50, 219);
+    margin: 50px auto;
+    /* transform: scale(2); this is for x axis only */
+    transform: scale(2, 1.5);
+}
+.translate{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(192, 30, 30);
+    margin: 50px auto;
+    /* transform: translate(50px); this is for x axis only */
+    transform: translate(100px, 40px);
+}
+.skew{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(8, 128, 158);
+    margin: 100px auto;
+    transform: skew(45deg);
+}
+.shadow{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(145, 216, 13);
+    margin: 50px auto;
+    box-shadow: 10px 15px 15px black;
+}
+.bgimage{
+    width: 800px;
+    height: 450px;
+    background-color: rgb(2, 77, 8);
+    margin: 50px auto;
+    background-image: url("bgimage.avif");
+    background-size: contain;
+    /* background-size: cover; */
+    /* background-size: auto; */
+}

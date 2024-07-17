@@ -1,0 +1,32 @@
+.outer{
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+
+}
+.inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+.para{
+    width: 100px;
+    height: 250px;
+    border: 2px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 50px 25px 50px 25px;
+}

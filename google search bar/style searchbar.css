@@ -1,0 +1,54 @@
+*{
+    text-align: center;
+    
+}
+h1{
+    font-size: 80px;
+    letter-spacing: 30px;
+
+
+}
+h1::first-letter{
+    color: blue;
+}
+
+
+input[type=text]{
+   width: 40%;
+   padding: 10px;
+   margin: 10px 5px;
+   border-radius: 15px;
+
+}
+button{
+    height: 35px;
+    border-radius: 10px;
+    background-color: blue;
+    color: azure;
+}
+#red{
+    color: red;
+}
+#yellow{
+    color: yellow;
+}
+#blue{
+    color: blue;
+}
+#green{
+    color: green;
+}
+#red2{
+    color: red;
+}
+div{
+    
+    width: 150px;
+    height: 20px;
+    padding: 10px 10px;
+    border: 2px solid rgb(226, 221, 221);
+    margin: 20px auto;
+    background-color: rgb(226, 221, 221);
+    display: inline;
+
+}
